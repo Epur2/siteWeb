@@ -1,0 +1,44 @@
+#moi
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+
+}
+
+form
+{
+	width:60%;
+}
+form p div label
+{
+	margin:0px;
+}
+
+form p div input
+{
+	border: none;
+	overflow: visible;
+}
+table
+{
+	width: 100%;
+	border: 2px red solid;
+}
+tr .class
+{
+	width: 100rem;
+}
+
+p
+{
+	width: 50px;
+}
+
+
+textarea
+{
+	width: 100%;
+	min-height: 400px;
+}

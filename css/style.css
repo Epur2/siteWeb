@@ -1,0 +1,228 @@
+/*mise en page*/
+#index
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	justify-content: space-between;
+	width:100%;
+}
+#colonneDroite
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+/*style des news*/
+aside
+{
+	display: flex;
+	flex-direction: column;
+
+	width:500px;
+	height: 492px;
+
+	margin:10px;
+	margin-left: 0px;
+
+
+	background-color: #474747;
+
+}
+aside h1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	width: 496px;
+	height: 80px;
+
+	border:#474747 2px solid;
+
+	margin: 0px;
+	padding: 0px;
+
+	background-color: #e6e6e6;
+}
+
+aside div
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+
+	overflow: auto;
+}
+aside div div
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+
+	height: 100px;
+
+	border-radius: 15px 0px 0px 0px;
+
+	margin: 2px;
+	margin-top: 0px;
+
+	background-color: #f2f2f2;
+}
+aside div div:hover
+{
+	text-decoration: underline;
+}
+
+aside figure
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-right: 2px #474747 solid;
+	width: 50px;
+
+	margin: 0px;
+	padding: 0px;
+}
+aside article
+{
+	width: 430px;
+
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	overflow: hidden;
+
+	text-align: left;
+	text-decoration: none;
+	color: #232323;
+}
+aside article h2
+{
+	margin:0px;
+	padding: 0px;
+}
+aside article p
+{
+	margin: 10px;
+	margin-left: 0px;
+	padding:0px;
+}
+aside a
+{
+	text-decoration: none;
+}
+
+/*style de la section site sympa*/
+#siteSympa h2
+{
+	text-decoration: none;
+}
+
+/*style du contenu*/
+#contenu
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/*border: 2px red solid;*/
+	
+	width: 60%;
+
+	margin:auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+#contenu .accueil
+{
+	margin: auto;
+	width:100%;
+	height: none;
+	
+	border:none;
+
+	color: #232323;
+
+}
+#contenu article
+{
+	border:2px black solid;
+
+	width: 300px;
+	height: 300px;
+
+	margin:5px;
+	padding:5px;
+}
+
+#contenu section div
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1590px)
+{
+#index
+{
+	flex-direction: column;
+}
+#colonneDroite
+{
+
+	margin: auto;
+	width: 100%;
+}
+#contenu
+{
+	width: 90%;
+}
+
+
+aside
+{
+	width:95%;
+	height:186px;
+
+	margin:auto;
+	margin-bottom: 10px;
+	padding: 0px;
+	overflow: hidden;
+}
+aside h1
+{
+	width:99.8%;
+	height:80px;
+}
+aside div
+{
+	flex-direction: row;
+	width: 99%;
+
+	overflow: hidden;
+
+}
+aside div div
+{
+	margin-right: 2px;
+}
+}
+
